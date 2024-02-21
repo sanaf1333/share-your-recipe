@@ -6,7 +6,12 @@ import React from "react";
 const HeaderLogo = () => {
   return (
     <Col className="justify-center flex">
-      <Image src="/images/cookographyLogo.png" preview={false} width={300} />
+      <Image
+        src="/images/cookographyLogo.png"
+        alt="Cookography logo"
+        preview={false}
+        width={300}
+      />
     </Col>
   );
 };

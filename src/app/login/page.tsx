@@ -32,6 +32,7 @@ const Login = () => {
         <Col xs={24} sm={24} md={18} lg={12} className="text-center">
           <Image
             src="/images/loginCooking.svg"
+            alt=""
             preview={false}
             height={100}
             className="mx-auto"

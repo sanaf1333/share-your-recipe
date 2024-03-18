@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 };
 const layoutStyle = {
   width: "100%",
-  height: "100%",
+  padding: "5px",
 };
 
 const headerStyle = {
@@ -40,7 +40,9 @@ export default function RootLayout({
                 borderRadius: 2,
                 fontSize: 12,
                 colorBgLayout: "#ffffff",
-
+                colorText: "#c3c7c4",
+                colorTextHeading: "black",
+                colorTextDescription: "pink",
                 // Alias Token
                 colorBgContainer: "#ffffff",
               },

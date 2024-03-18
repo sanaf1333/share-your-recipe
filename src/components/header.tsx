@@ -5,7 +5,7 @@ import React from "react";
 
 const HeaderLogo = () => {
   return (
-    <Col className="justify-center flex">
+    <Col style={{ display: "flex", justifyContent: "center" }}>
       <Image
         src="/images/cookographyLogo.png"
         alt="Cookography logo"

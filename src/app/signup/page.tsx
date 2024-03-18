@@ -30,15 +30,24 @@ const Signup = () => {
   return (
     <>
       <Row align="middle" justify="center">
-        <Col xs={24} sm={24} md={18} lg={12} className="text-center">
+        <Col
+          xs={24}
+          sm={24}
+          md={18}
+          lg={12}
+          style={{
+            justifyContent: "center",
+            display: "flex",
+            flexDirection: "column",
+          }}
+        >
           <Image
             src="/images/loginCooking.svg"
             alt=""
             preview={false}
             height={100}
-            className="mx-auto"
           />
-          <Title level={2} className="py-5">
+          <Title level={2} style={{ textAlign: "center" }}>
             Signup
           </Title>
           <Form
@@ -73,7 +82,7 @@ const Signup = () => {
               <Input.Password placeholder="Password" />
             </Form.Item>
 
-            <Form.Item className="flex justify-center">
+            <Form.Item style={{ display: "flex", justifyContent: "center" }}>
               <Button type="primary" htmlType="submit">
                 Submit
               </Button>
